@@ -1,0 +1,372 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Sound category	Additional information
+1	Spectrogram 1	1	0.122	16.585	973	11051.2	Bird	
+2	Spectrogram 1	1	17.683	65.244	540.5	15069.8	Bird	
+3	Spectrogram 1	1	61.878	62.945	4324.3	15351.4	Bird	
+4	Spectrogram 1	1	66.22	130.854	756.8	14734.9	Bird	
+5	Spectrogram 1	1	66.39	67.244	4108.1	12973	Bird	
+6	Spectrogram 1	1	115.497	117.784	3837.8	8270.3	Bird	
+7	Spectrogram 1	1	131.305	132.463	5513.5	11720.9	Bird	
+8	Spectrogram 1	1	132.71	190.133	756.8	11135.1	Bird	
+9	Spectrogram 1	1	190.962	224.316	563.4	8676.1	Bird	
+10	Spectrogram 1	1	226.145	267.364	563.4	10140.8	Bird	
+11	Spectrogram 1	1	249.194	258.584	0	9690.1	Buzz	
+12	Spectrogram 1	1	268.328	332.822	0	11042.3	Bird	
+13	Spectrogram 1	1	269.599	331.673	1116.3	11162.8	Bird	low
+14	Spectrogram 1	1	309.12	318.206	6535.2	18816.9	Other animal	
+15	Spectrogram 1	1	319.913	322.657	0	13295.8	Buzz	
+16	Spectrogram 1	1	335.977	380.977	788.7	10816.9	Bird	
+17	Spectrogram 1	1	365.794	368.538	0	8901.4	Buzz	
+18	Spectrogram 1	1	381.745	480.77	563.4	10704.2	Bird	
+19	Spectrogram 1	1	423.331	427.721	0	10366.2	Buzz	
+20	Spectrogram 1	1	434.062	437.66	0	10366.2	Buzz	
+21	Spectrogram 1	1	480.428	520.489	676.1	11718.3	Bird	
+22	Spectrogram 1	1	522.059	544.983	450.7	9239.4	Bird	
+23	Spectrogram 1	1	546.111	595.812	225.4	10816.9	Bird	
+24	Spectrogram 1	1	556.083	557.669	5693	12390.7	Bird	
+25	Spectrogram 1	1	597.044	627.63	563.4	10478.9	Bird	
+26	Spectrogram 1	1	627.995	652.325	0	13859.2	Bird	
+27	Spectrogram 1	1	653.239	681.654	676.1	10028.2	Bird	
+28	Spectrogram 1	1	682.117	705.508	901.4	10478.9	Bird	
+29	Spectrogram 1	1	706.117	815.634	788.7	9600	Bird	low
+30	Spectrogram 1	1	721.087	723.953	0	10028.2	Buzz	
+31	Spectrogram 1	1	817.197	869.697	563.4	9126.8	Bird	low
+32	Spectrogram 1	1	828.05	830.855	0	7887.3	Buzz	
+33	Spectrogram 1	1	854.651	858.218	4688.4	18083.7	Other animal	
+34	Spectrogram 1	1	870.648	913.544	450.7	9577.5	Bird	low
+35	Spectrogram 1	1	909.794	912.538	5633.8	14197.2	Other animal	
+36	Spectrogram 1	1	913.636	943.392	788.7	11605.6	Bird	
+37	Spectrogram 1	1	936.228	942.081	0	9352.1	Buzz	low
+38	Spectrogram 1	1	944.361	960.154	563.4	11718.3	Bird	
+39	Spectrogram 1	1	959.27	985.459	732.4	9183.1	Bird	low
+40	Spectrogram 1	1	963.142	987.197	676.1	12056.3	Bird	
+41	Spectrogram 1	1	988.16	1054.623	1674.4	11051.2	Bird	low
+42	Spectrogram 1	1	988.77	1029.989	563.4	10591.5	Bird	voice in the background
+43	Spectrogram 1	1	993.343	996.392	0	6251.2	Bird	
+44	Spectrogram 1	1	1032.148	1053.855	901.4	10478.9	Bird	voice in the background
+45	Spectrogram 1	1	1058.855	1067.88	676.1	11831	Bird	
+46	Spectrogram 1	1	1068.562	1113.971	788.7	10140.8	Bird	
+47	Spectrogram 1	1	1116.166	1142.605	788.7	9464.8	Bird	
+48	Spectrogram 1	1	1142.422	1146.325	7098.6	16901.4	Other animal	
+49	Spectrogram 1	1	1144.983	1198.922	901.4	9464.8	Bird	
+50	Spectrogram 1	1	1173.8	1177.276	0	10591.5	Buzz	
+51	Spectrogram 1	1	1187.002	1190.355	5802.8	15380.3	Other animal	
+52	Spectrogram 1	1	1188.191	1193.404	0	8225.4	Buzz	
+53	Spectrogram 1	1	1200.971	1251.886	1014.1	9690.1	Bird	
+54	Spectrogram 1	1	1202.434	1205.605	3493	16450.7	Other animal	
+55	Spectrogram 1	1	1232.953	1236.672	5183.1	15627.9	Other animal	
+56	Spectrogram 1	1	1252.776	1285.459	901.4	9802.8	Bird	
+57	Spectrogram 1	1	1283.203	1288.934	0	10478.9	Other animal	
+58	Spectrogram 1	1	1289.422	1307.349	901.4	10028.2	Bird	low
+59	Spectrogram 1	1	1308.325	1345.886	788.7	11042.3	Bird	
+60	Spectrogram 1	1	1347.203	1375.495	788.7	9126.8	Bird	
+61	Spectrogram 1	1	1351.227	1353.666	0	7098.6	Buzz	
+62	Spectrogram 1	1	1359.337	1375.678	112.7	7549.3	Buzz	
+63	Spectrogram 1	1	1378.422	1389.825	676.1	6535.2	Bird	
+64	Spectrogram 1	1	1381.837	1391.41	0	4845.1	Buzz	
+65	Spectrogram 1	1	1391.569	1400.715	563.4	5633.8	Bird	
+66	Spectrogram 1	1	1404.983	1443.495	450.7	7549.3	Bird	
+67	Spectrogram 1	1	1413.093	1421.812	0	7774.6	Buzz	
+68	Spectrogram 1	1	1419.471	1422.337	6873.2	16563.4	Other animal	
+69	Spectrogram 1	1	1447.41	1498.995	338	7549.3	Bird	low
+70	Spectrogram 1	1	1486.922	1497.776	0	10366.2	Buzz	
+71	Spectrogram 1	1	1490.825	1493.752	4957.7	15323.9	Other animal	
+72	Spectrogram 1	1	1498.178	1546.166	0	9577.5	Bird	low
+73	Spectrogram 1	1	1525.069	1526.654	3605.6	12394.4	Bird	
+74	Spectrogram 1	1	1527.806	1532.319	5569.1	13790.1	Other animal	
+75	Spectrogram 1	1	1538.117	1540.922	0	9126.8	Buzz	
+76	Spectrogram 1	1	1545.861	1550.617	0	8788.7	Buzz	
+77	Spectrogram 1	1	1546.117	1591.203	901.4	8000	Bird	low
+78	Spectrogram 1	1	1565.105	1567.178	0	9690.1	Buzz	
+79	Spectrogram 1	1	1576.666	1578.617	0	10140.8	Buzz	
+80	Spectrogram 1	1	1583.764	1587.056	0	5408.5	Buzz	
+81	Spectrogram 1	1	1588.709	1590.477	0	11042.3	Buzz	
+82	Spectrogram 1	1	1591.91	1602.337	563.4	9690.1	Bird	
+83	Spectrogram 1	1	1602.575	1717.691	588.2	13746.5	Bird	
+84	Spectrogram 1	1	1612.575	1615.441	0	6422.5	Buzz	
+85	Spectrogram 1	1	1639.039	1690.477	7098.6	16186	Other animal	
+86	Spectrogram 1	1	1708.795	1713.429	6293.3	15040	Other animal	
+87	Spectrogram 1	1	1726.429	1784.051	640	11413.3	Bird	
+88	Spectrogram 1	1	1784.16	1791.599	0	3626.7	Buzz	low
+89	Spectrogram 1	1	1788.746	1794.965	7040	15573.3	Other animal	
+90	Spectrogram 1	1	1793.38	1802.404	0	8000	Other animal	
+91	Spectrogram 1	1	1801.721	1867.648	426.7	8426.7	Bird	
+92	Spectrogram 1	1	1807.526	1815.99	0	2240	Buzz	
+93	Spectrogram 1	1	1839.356	1843.502	0	6720	Buzz	
+94	Spectrogram 1	1	1866.917	1870.819	0	3314.9	Bird	low
+95	Spectrogram 1	1	1870.087	1888.258	640	5760	Bird	low
+96	Spectrogram 1	1	1890.648	1950.526	663	6497.2	Bird	
+97	Spectrogram 1	1	1911.136	1914.185	426.7	15466.7	Other animal	
+98	Spectrogram 1	1	1921.624	1928.087	4160	15253.3	Other animal	
+99	Spectrogram 1	1	1936.575	1942.428	3182.3	6629.8	Bird	
+100	Spectrogram 1	1	1950.478	2017.55	426.7	7425.4	Bird	
+101	Spectrogram 1	1	1956.087	1959.868	6080	14080	Other animal	
+102	Spectrogram 1	1	1970.478	1974.484	0	2121.5	Bird	
+103	Spectrogram 1	1	1985.66	2000.112	5333.3	13866.7	Other animal	
+104	Spectrogram 1	1	1991.453	1995.112	2666.7	5546.7	Bird	
+105	Spectrogram 1	1	2009.941	2015.185	6506.7	14826.7	Other animal	
+106	Spectrogram 1	1	2020.917	2043.892	746.7	4906.7	Bird	
+107	Spectrogram 1	1	2023.356	2028.721	4160	15146.7	Other animal	
+108	Spectrogram 1	1	2047.99	2150.917	426.7	6293.3	Bird	low
+109	Spectrogram 1	1	2060.673	2083.112	0	3845.3	Bird	
+110	Spectrogram 1	1	2076.77	2079.575	0	4906.7	Bird	
+111	Spectrogram 1	1	2088.478	2129.087	5546.7	10560	Bird	
+112	Spectrogram 1	1	2099.331	2110.429	1066.7	4375.7	Bird	
+113	Spectrogram 1	1	2103.478	2123.112	8000	14613.3	Other animal	
+114	Spectrogram 1	1	2111.404	2145.917	0	3093.3	Bird	
+115	Spectrogram 1	1	2113.843	2116.039	0	5226.7	Bird	
+116	Spectrogram 1	1	2145.429	2150.795	0	5760	Bird	
+117	Spectrogram 1	1	2149.331	2153.843	0	13440	Buzz	noise
+118	Spectrogram 1	1	2153.551	2230.136	746.7	6293.3	Bird	low
+119	Spectrogram 1	1	2168.917	2172.453	0	7146.7	Bird	
+120	Spectrogram 1	1	2182.819	2220.38	0	4160	Bird	
+121	Spectrogram 1	1	2217.514	2233.246	4320	16373.3	Other animal	
+122	Spectrogram 1	1	2235.746	2240.746	1280	4373.3	Bird	low
+123	Spectrogram 1	1	2241.599	2247.331	0	18773.3	Buzz	
+124	Spectrogram 1	1	2248.063	2260.624	1280	5701.7	Bird	low
+125	Spectrogram 1	1	2248.307	2332.977	5013.3	15466.7	Other animal	
+126	Spectrogram 1	1	2256.599	2261.965	0	2386.7	Bird	
+127	Spectrogram 1	1	2274.843	2331.307	0	2880	Bird	
+128	Spectrogram 1	1	2341.551	2455.478	746.7	5600	Bird	low
+129	Spectrogram 1	1	2343.746	2401.087	4053.3	14826.7	Other animal	
+130	Spectrogram 1	1	2407.185	2411.819	3885.7	14171.4	Other animal	
+131	Spectrogram 1	1	2427.795	2465.661	5028.6	14971.4	Other animal	
+132	Spectrogram 1	1	2428.283	2504.38	0	2519.3	Bird	
+133	Spectrogram 1	1	2490.185	2552.38	4571.4	14857.1	Other animal	
+134	Spectrogram 1	1	2511.161	2515.307	0	2386.7	Bird	
+135	Spectrogram 1	1	2579.892	2655.258	571.4	7428.6	Bird	low
+136	Spectrogram 1	1	2616.234	2668.185	5600	16457.1	Other animal	
+137	Spectrogram 1	1	2662.917	2750.478	1142.9	7314.3	Bird	low
+138	Spectrogram 1	1	2685.844	2764.38	5485.7	15314.3	Other animal	
+139	Spectrogram 1	1	2772.258	2784.941	5828.6	16228.6	Other animal	
+140	Spectrogram 1	1	2834.697	2842.136	3085.7	16342.9	Other animal	
+141	Spectrogram 1	1	2837.624	2848.112	1371.4	6400	Bird	low
+142	Spectrogram 1	1	2857.38	2863.112	5714.3	14628.6	Other animal	
+143	Spectrogram 1	1	2869.892	2887.087	228.6	4685.7	Bird	low
+144	Spectrogram 1	1	2873.722	2878.234	0	2519.3	Bird	
+145	Spectrogram 1	1	2875.795	2881.283	4228.6	14971.4	Other animal	
+146	Spectrogram 1	1	2901.722	2973.917	5485.7	16571.4	Other animal	
+147	Spectrogram 1	1	2910.258	2916.112	0	7657.1	Bird	low
+148	Spectrogram 1	1	2936.965	2957.331	0	5485.7	Bird	low
+149	Spectrogram 1	1	2978.014	3028.258	342.9	6514.3	Bird	low
+150	Spectrogram 1	1	2986.063	3032.77	5600	14514.3	Other animal	
+151	Spectrogram 1	1	2992.892	3001.307	0	3447.5	Bird	
+152	Spectrogram 1	1	3045.697	3055.697	5828.6	14400	Other animal	
+153	Spectrogram 1	1	3047.283	3097.283	685.7	6742.9	Bird	low
+154	Spectrogram 1	1	3065.697	3085.331	5142.9	14057.1	Other animal	
+155	Spectrogram 1	1	3094.112	3103.941	4457.1	14171.4	Other animal	
+156	Spectrogram 1	1	3100.648	3175.77	571.4	5828.6	Bird	low
+157	Spectrogram 1	1	3119.185	3139.307	5028.6	14742.9	Other animal	
+158	Spectrogram 1	1	3164.673	3181.868	3314.3	15428.6	Other animal	
+159	Spectrogram 1	1	3189.185	3205.283	457.1	5028.6	Bird	low
+160	Spectrogram 1	1	3196.014	3205.283	4342.9	15314.3	Other animal	
+161	Spectrogram 1	1	3218.234	3230.673	0	4571.4	Bird	low
+162	Spectrogram 1	1	3228.234	3281.161	4571.4	14971.4	Other animal	
+163	Spectrogram 1	1	3250.185	3324.917	457.1	4685.7	Bird	low
+164	Spectrogram 1	1	3294.819	3301.283	5371.4	16228.6	Other animal	
+165	Spectrogram 1	1	3311.746	3322.356	4800	16342.9	Other animal	
+166	Spectrogram 1	1	3330.526	3351.624	3542.9	16800	Other animal	
+167	Spectrogram 1	1	3363.039	3398.404	0	6171.4	Bird	low
+168	Spectrogram 1	1	3364.258	3470.173	4800	16685.7	Other animal	
+169	Spectrogram 1	1	3409.746	3431.819	1828.6	10057.1	Bird	
+170	Spectrogram 1	1	3460.843	3465.173	0	8800	Other animal	
+171	Spectrogram 1	1	3477.197	3513.783	6514.3	16800	Other animal	
+172	Spectrogram 1	1	3521.161	3620.121	457.1	5714.3	Bird	low
+173	Spectrogram 1	1	3526.831	3638.464	5828.6	18307	Other animal	
+174	Spectrogram 1	1	3632.561	3635.854	538.1	8287	Bird	low
+175	Spectrogram 1	1	3641.098	3648.232	0	2917.1	Bird	
+176	Spectrogram 1	1	3648.171	3655.854	3121.1	17327.4	Other animal	
+177	Spectrogram 1	1	3656.134	3663.756	430.5	7426	Bird	low
+178	Spectrogram 1	1	3658.756	3673.146	1937.2	18511.2	Other animal	
+179	Spectrogram 1	1	3676.866	3685.585	4304.9	18188.3	Other animal	
+180	Spectrogram 1	1	3694.366	3702.659	3659.2	19372.2	Other animal	
+181	Spectrogram 1	1	3705.585	3711.134	0	6242.2	Bird	
+182	Spectrogram 1	1	3709.366	3738.427	4843	18511.2	Other animal	
+183	Spectrogram 1	1	3715.5	3724.463	0	5704	Bird	
+184	Spectrogram 1	1	3735.378	3740.439	0	3314.9	Bird	
+185	Spectrogram 1	1	3745.012	3764.89	3874.4	17865.5	Other animal	
+186	Spectrogram 1	1	3769.439	3780.659	861	5919.3	Bird	low
+187	Spectrogram 1	1	3790.354	3803.89	3982.1	16358.7	Other animal	
+188	Spectrogram 1	1	3791.329	3820.963	1183.9	5058.3	Bird	low
+189	Spectrogram 1	1	3812.122	3821.878	3443.9	17973.1	Other animal	
+190	Spectrogram 1	1	3862.646	3865.878	5273.5	17973.1	Other animal	
+191	Spectrogram 1	1	3873.134	3875.695	5596.4	16251.1	Other animal	
+192	Spectrogram 1	1	3879.14	3881.884	5165.9	17327.4	Other animal	
+193	Spectrogram 1	1	3883.104	3894.201	645.7	6672.6	Bird	low
+194	Spectrogram 1	1	3887.25	3890.299	4520.2	16896.9	Other animal	
+195	Spectrogram 1	1	3897.165	3902.348	3551.6	17219.7	Other animal	
+196	Spectrogram 1	1	3901.25	3913.567	538.1	4950.7	Bird	low
+197	Spectrogram 1	1	3909.665	3912.896	3013.5	17973.1	Other animal	
+198	Spectrogram 1	1	3919.543	3944.36	3497.8	16735.4	Other animal	
+199	Spectrogram 1	1	3957.933	3961.591	4466.4	16412.6	Other animal	
+200	Spectrogram 1	1	3978.055	3981.652	4520.2	15928.3	Other animal	
+201	Spectrogram 1	1	3993.36	3997.567	3551.6	19479.8	Other animal	
+202	Spectrogram 1	1	3998.177	4000.738	0	6780.3	Bird	
+203	Spectrogram 1	1	4000.591	4022.872	645.7	5811.7	Bird	low
+204	Spectrogram 1	1	4006.872	4009.128	6134.5	18188.3	Other animal	
+205	Spectrogram 1	1	4031.811	4047.055	5811.7	17112.1	Other animal	
+206	Spectrogram 1	1	4054.262	4065.665	5058.3	18296	Other animal	
+207	Spectrogram 1	1	4054.384	4059.567	753.4	8609.9	Other animal	
+208	Spectrogram 1	1	4064.75	4074.14	1722	7318.4	Bird	low
+209	Spectrogram 1	1	4074.567	4089.201	4304.9	17542.6	Other animal	
+210	Spectrogram 1	1	4112.774	4116.86	4843	17327.4	Other animal	
+211	Spectrogram 1	1	4122.713	4126.921	3551.6	18834.1	Other animal	
+212	Spectrogram 1	1	4156.591	4164.152	1076.2	7533.6	Bird	low
+213	Spectrogram 1	1	4177.079	4184.152	322.9	7210.8	Bird	low
+214	Spectrogram 1	1	4202.384	4212.079	3766.8	17865.5	Other animal	
+215	Spectrogram 1	1	4218.396	4221.872	6565	17435	Other animal	
+216	Spectrogram 1	1	4233.213	4236.262	4089.7	19372.2	Other animal	
+217	Spectrogram 1	1	4247.665	4251.994	3874.4	15928.3	Other animal	
+218	Spectrogram 1	1	4260.652	4263.64	3766.8	13022.4	Other animal	
+219	Spectrogram 1	1	4265.506	4269.164	6074.7	17590.4	Other animal	
+220	Spectrogram 1	1	4291.329	4295.049	4358.7	18026.9	Other animal	
+221	Spectrogram 1	1	4306.665	4318.433	645.7	7318.4	Bird	low
+222	Spectrogram 1	1	4312.884	4315.628	5811.7	16789.2	Other animal	
+223	Spectrogram 1	1	4342.494	4345.665	5112.1	16197.3	Other animal	
+224	Spectrogram 1	1	4351.823	4355.482	5112.1	15551.6	Other animal	
+225	Spectrogram 1	1	4353.043	4369.567	1076.2	6565	Bird	low
+226	Spectrogram 1	1	4380.335	4384.055	6026.9	15497.8	Other animal	
+227	Spectrogram 1	1	4383.994	4387.469	0	7533.6	Bird	low
+228	Spectrogram 1	1	4414.17	4418.987	0	7318.4	Bird	low
+229	Spectrogram 1	1	4434.445	4459.445	5488.8	18726.5	Other animal	
+230	Spectrogram 1	1	4436.579	4443.164	0	7210.8	Bird	low
+231	Spectrogram 1	1	4461.189	4472.53	0	7533.6	Bird	low
+232	Spectrogram 1	1	4564.457	4567.384	3874.4	18834.1	Other animal	
+233	Spectrogram 1	1	4597.97	4602.177	968.6	11085.2	Bird	low
+234	Spectrogram 1	1	4615.469	4624.494	6780.3	16896.9	Other animal	
+235	Spectrogram 1	1	4640.226	4651.689	4304.9	18403.6	Other animal	
+236	Spectrogram 1	1	4669.957	4680.323	4412.6	16574	Other animal	
+237	Spectrogram 1	1	4703.835	4708.348	1614.3	7318.4	Bird	low
+238	Spectrogram 1	1	4716.945	4746.097	663	6887.9	Bird	low
+239	Spectrogram 1	1	4764.543	4768.262	322.9	4950.7	Bird	low
+240	Spectrogram 1	1	4773.872	4782.104	5596.4	16297.7	Other animal	
+241	Spectrogram 1	1	4775.091	4778.018	430.5	5596.4	Bird	low
+242	Spectrogram 1	1	4782.262	4788.177	1183.9	6027.9	Bird	low
+243	Spectrogram 1	1	4812.476	4822.567	2421.5	15443.9	Other animal	
+244	Spectrogram 1	1	4836.323	4843.701	6995.5	17757.8	Other animal	
+245	Spectrogram 1	1	4911.939	4947.335	5704	16143.5	Other animal	
+246	Spectrogram 1	1	4958.226	4964.262	5488.8	15174.9	Other animal	
+247	Spectrogram 1	1	4975.543	4978.835	6349.8	18941.7	Other animal	
+248	Spectrogram 1	1	4991.396	5001.518	3874.4	16035.9	Other animal	
+249	Spectrogram 1	1	5034.116	5056.128	645.7	11623.3	Bird	low
+250	Spectrogram 1	1	5058.238	5073.36	3551.6	17757.8	Other animal	
+251	Spectrogram 1	1	5079.762	5087.384	3336.3	19372.2	Other animal	
+252	Spectrogram 1	1	5096.469	5102.445	3121.1	16466.4	Other animal	
+253	Spectrogram 1	1	5106.835	5111.53	3013.5	15282.5	Other animal	
+254	Spectrogram 1	1	5109.738	5111.994	2798.2	10547.1	Bird	
+255	Spectrogram 1	1	5135.835	5163.701	3121.1	16251.1	Other animal	
+256	Spectrogram 1	1	5168.189	5175.506	6887.9	17327.4	Other animal	
+257	Spectrogram 1	1	5171.116	5182.396	430.5	6497.2	Bird	
+258	Spectrogram 1	1	5193.86	5205.445	4950.7	14852	Other animal	
+259	Spectrogram 1	1	5203.006	5220.018	1291.5	6995.5	Bird	low
+260	Spectrogram 1	1	5237.677	5284.628	3659.2	15820.6	Other animal	
+261	Spectrogram 1	1	5284.207	5291.098	0	6349.8	Bird	low
+262	Spectrogram 1	1	5285.518	5326.921	4089.7	16896.9	Other animal	
+263	Spectrogram 1	1	5301.402	5303.902	591.9	5435	Bird	
+264	Spectrogram 1	1	5340.494	5357.689	3659.2	15713	Other animal	
+265	Spectrogram 1	1	5374.677	5378.396	430.5	6242.2	Bird	low
+266	Spectrogram 1	1	5424.799	5429.799	430.5	5058.3	Bird	low
+267	Spectrogram 1	1	5430.213	5456.189	3121.1	15497.8	Other animal	
+268	Spectrogram 1	1	5464.604	5472.774	4304.9	15497.8	Other animal	
+269	Spectrogram 1	1	5507.78	5514.427	538.1	5704	Bird	low
+270	Spectrogram 1	1	5516.378	5519.488	3013.5	14206.3	Other animal	
+271	Spectrogram 1	1	5532.268	5542.39	430.5	4304.9	Bird	low
+272	Spectrogram 1	1	5543.366	5545.195	376.7	5650.2	Bird	
+273	Spectrogram 1	1	5551.415	5558.61	322.9	4520.2	Bird	
+274	Spectrogram 1	1	5554.585	5558	3820.6	15551.6	Other animal	
+275	Spectrogram 1	1	5568.579	5588.655	4251.1	14421.5	Other animal	
+276	Spectrogram 1	1	5596.436	5605.338	4520.2	15282.5	Other animal	
+277	Spectrogram 1	1	5609.058	5638.485	3766.8	15497.8	Other animal	
+278	Spectrogram 1	1	5643.277	5659.558	3982.1	16035.9	Other animal	
+279	Spectrogram 1	1	5663.704	5674.131	4735.4	15713	Other animal	
+280	Spectrogram 1	1	5702.887	5711.729	322.9	7748.9	Bird	low
+281	Spectrogram 1	1	5722.034	5728.07	645.7	5381.2	Bird	low
+282	Spectrogram 1	1	5740.241	5744.936	3443.9	13775.8	Other animal	
+283	Spectrogram 1	1	5768.168	5774.692	2044.8	14959.6	Other animal	
+284	Spectrogram 1	1	5834.46	5851.777	322.9	5273.5	Bird	low
+285	Spectrogram 1	1	5854.826	5858.058	3013.5	16574	Other animal	
+286	Spectrogram 1	1	5872.448	5875.863	3820.6	16197.3	Other animal	
+287	Spectrogram 1	1	5885.899	5890.351	645.7	5058.3	Bird	low
+288	Spectrogram 1	1	5898.277	5902.546	753.4	6134.5	Bird	low
+289	Spectrogram 1	1	5939.229	5952.216	538.1	5704	Bird	low
+290	Spectrogram 1	1	5973.741	5983.07	3443.9	15497.8	Other animal	
+291	Spectrogram 1	1	6004.387	6012.009	7210.8	17757.8	Other animal	
+292	Spectrogram 1	1	6018.594	6022.436	1291.5	6457.4	Bird	low
+293	Spectrogram 1	1	6031.582	6037.741	4520.2	17219.7	Other animal	
+294	Spectrogram 1	1	6044.326	6048.29	2690.6	14744.4	Other animal	
+295	Spectrogram 1	1	6051.131	6064.912	753.4	7533.6	Bird	low
+296	Spectrogram 1	1	6079.241	6082.473	3766.8	17112.1	Other animal	
+297	Spectrogram 1	1	6082.229	6086.619	0	11085.2	Buzz	
+298	Spectrogram 1	1	6096.009	6098.875	4412.6	17973.1	Other animal	
+299	Spectrogram 1	1	6105.527	6113.759	968.6	6134.5	Bird	low
+300	Spectrogram 1	1	6126.808	6148.393	4412.6	13345.3	Other animal	
+301	Spectrogram 1	1	6169.223	6180.686	4735.4	14421.5	Other animal	
+302	Spectrogram 1	1	6179.466	6193.491	322.9	6134.5	Bird	low
+303	Spectrogram 1	1	6185.808	6189.162	6026.9	15174.9	Other animal	
+304	Spectrogram 1	1	6218.68	6222.277	3013.5	14852	Other animal	
+305	Spectrogram 1	1	6227.399	6243.527	4735.4	14852	Other animal	
+306	Spectrogram 1	1	6244.844	6250.332	322.9	5488.8	Bird	low
+307	Spectrogram 1	1	6289.082	6292.619	6457.4	17435	Other animal	
+308	Spectrogram 1	1	6292.838	6298.57	861	6134.5	Bird	low
+309	Spectrogram 1	1	6360.838	6363.338	5381.2	14421.5	Other animal	
+310	Spectrogram 1	1	6419.515	6439.698	4304.9	15174.9	Other animal	
+311	Spectrogram 1	1	6431.222	6435.064	0	5488.8	Bird	low
+312	Spectrogram 1	1	6455.344	6463.027	4304.9	16143.5	Other animal	
+313	Spectrogram 1	1	6465.54	6487.308	0	5704	Bird	low
+314	Spectrogram 1	1	6471.472	6479.643	6565	15713	Other animal	
+315	Spectrogram 1	1	6486.637	6500.966	4735.4	15174.9	Other animal	
+316	Spectrogram 1	1	6509.052	6522.204	4304.9	14313.9	Other animal	
+317	Spectrogram 1	1	6539.704	6542.875	4520.2	14744.4	Other animal	
+318	Spectrogram 1	1	6579.46	6582.692	3013.5	13775.8	Other animal	
+319	Spectrogram 1	1	6593.716	6597.192	4089.7	13668.2	Other animal	
+320	Spectrogram 1	1	6617.899	6621.131	3982.1	15067.3	Other animal	
+321	Spectrogram 1	1	6653.954	6673.991	4304.9	16466.4	Other animal	
+322	Spectrogram 1	1	6710.698	6713.259	5811.7	16789.2	Other animal	
+323	Spectrogram 1	1	6731.222	6737.625	0	6349.8	Bird	low
+324	Spectrogram 1	1	6763.759	6769.796	215.2	5811.7	Bird	low
+325	Spectrogram 1	1	6809.369	6816.503	0	6242.2	Bird	low
+326	Spectrogram 1	1	6810.649	6819.918	2260.1	16681.6	Other animal	
+327	Spectrogram 1	1	6836.259	6847.174	3766.8	17525.6	Other animal	
+328	Spectrogram 1	1	6852.454	6860.32	430.5	6565	Bird	low
+329	Spectrogram 1	1	6866.966	6871.113	4627.8	14529.1	Other animal	
+330	Spectrogram 1	1	6872.271	6875.442	322.9	4735.4	Bird	
+331	Spectrogram 1	1	6903.954	6906.515	538.1	4627.8	Bird	
+332	Spectrogram 1	1	6970.149	6977.344	4627.8	18726.5	Other animal	
+333	Spectrogram 1	1	6984.454	6987.686	0	6780.3	Bird	low
+334	Spectrogram 1	1	6995.979	6999.698	3013.5	13883.4	Other animal	
+335	Spectrogram 1	1	7002.991	7007.32	269.1	5757.8	Bird	low
+336	Spectrogram 1	1	7010.979	7014.088	322.9	5488.8	Bird	low
+337	Spectrogram 1	1	7040.68	7045.07	3659.2	14959.6	Other animal	
+338	Spectrogram 1	1	7054.338	7059.765	2798.2	16466.4	Other animal	
+339	Spectrogram 1	1	7068.948	7074.924	3766.8	13022.4	Other animal	
+340	Spectrogram 1	1	7097.851	7103.399	2152.5	14958.1	Other animal	
+341	Spectrogram 1	1	7112.363	7120.899	4735.4	14958.1	Other animal	
+342	Spectrogram 1	1	7120.96	7123.338	538.1	4627.8	Bird	low
+343	Spectrogram 1	1	7128.619	7136.424	3766.8	15605.4	Other animal	
+344	Spectrogram 1	1	7235.351	7240.107	322.9	5811.7	Bird	low
+345	Spectrogram 1	1	7258.192	7263.07	3659.2	14959.6	Other animal	
+346	Spectrogram 1	1	7293.588	7295.966	538.1	7856.5	Bird	low
+347	Spectrogram 1	1	7320.936	7324.594	3659.2	13452.9	Other animal	
+348	Spectrogram 1	1	7331.887	7336.948	538.1	6134.5	Bird	low
+349	Spectrogram 1	1	7335.332	7339.997	3713	15228.7	Other animal	
+350	Spectrogram 1	1	7347.924	7354.326	3766.8	12269.1	Other animal	
+351	Spectrogram 1	1	7371.887	7387.802	5811.7	16574	Other animal	
+352	Spectrogram 1	1	7392.899	7411.253	4304.9	15928.3	Other animal	
+353	Spectrogram 1	1	7422.472	7430.46	3443.9	14852	Other animal	
+354	Spectrogram 1	1	7492.54	7495.954	6565	14959.6	Other animal	
+355	Spectrogram 1	1	7533.125	7541.783	215.2	4843	Bird	low
+356	Spectrogram 1	1	7551.661	7555.686	4950.7	13883.4	Other animal	
+357	Spectrogram 1	1	7563.186	7588.704	4843	12699.6	Other animal	
+358	Spectrogram 1	1	7595.472	7598.399	4520.2	13991	Other animal	
+359	Spectrogram 1	1	7607.582	7613.863	3659.2	16358.7	Other animal	
+360	Spectrogram 1	1	7721.985	7727.351	2583	13130	Other animal	
+361	Spectrogram 1	1	7731.802	7738.509	1614.3	10009	Bird	low
+362	Spectrogram 1	1	7737.472	7742.777	2475.3	15174.9	Other animal	
+363	Spectrogram 1	1	7757.143	7771.229	430.5	6134.5	Bird	low
+364	Spectrogram 1	1	7786.838	7791.777	3336.3	13237.7	Other animal	
+365	Spectrogram 1	1	7800.802	7806.655	2798.2	13775.8	Other animal	
+366	Spectrogram 1	1	7813.948	7818.826	4412.6	15181.4	Other animal	
+367	Spectrogram 1	1	7826.692	7834.619	2475.3	17302.3	Other animal	
+368	Spectrogram 1	1	7921.277	7933.96	538.1	7533.6	Bird	low
+369	Spectrogram 1	1	7926.033	7944.753	5165.9	15067.3	Other animal	
+370	Spectrogram 1	1	7951.948	7957.619	430.5	6134.5	Bird	low
+371	Spectrogram 1	1	8038.037	8046.025	4843	15067.3	Other animal	
