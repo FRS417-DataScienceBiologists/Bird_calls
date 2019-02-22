@@ -1,0 +1,24 @@
+---
+title: "bird_call_dataReference"
+author: "Stephanie Tsai"
+date: "February 12, 2019"
+output: html_document
+---
+
+## Sources Used
+Database we are using is from "Kendrick, P.; Barçante, L.; Beresford, N.A.; Gashchak, S.; Wood, M.D. (2018). Bird Vocalisation Activity (BiVA) database: annotated soundscapes from the Chernobyl Exclusion Zone. NERC Environmental Information Data Centre. https://doi.org/10.5285/be5639e9-75e9-4aa3-afdd-65ba80352591"
+Contains data supplied by Natural Environment Research Council from Open Government License
+
+## Questions
+1. Where is the greatest frequency variation? Mean, SD of frequency data
+2. Is there a corrolation between freq range and recording duration?
+3. Make a box plot to view category = bird, buzz, other animal + y = frequencies
+
+
+
+
+
+## Extras
+2. Is recording length different for each animal? Can they be grouped for duration?
+3. Are there more birds singing together than alone? (key word "another bird")
+4. If not a bird, are the animal noises mostly insects?
