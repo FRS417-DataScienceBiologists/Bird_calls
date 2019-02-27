@@ -1,0 +1,91 @@
+---
+title: "birdCalling_analyze"
+author: "Stephanie Tsai"
+date: "February 25, 2019"
+output: html_document
+---
+```{r}
+library(tidyverse)
+library(skimr)
+```
+```{r}
+call_data <- read_csv("complete_BirdCall_data_table.csv")
+```
+## Clean up data
+```{r}
+skim(call_data)
+```
+
+
+```{r}
+call_data <- call_data %>% 
+  rename(info = 'Additional information',
+         sound_category = 'Sound category',
+         begin_time_s = 'Begin Time (s)',
+         end_time_s = 'End Time (s)',
+         high_freq_hz = 'High Freq (Hz)',
+         low_freq_hz = 'Low Freq (Hz)' )
+
+
+```
+
+```{r}
+bird_calls <- call_data
+```
+
+```{r}
+
+bird_calls <- tibble::rowid_to_column(bird_calls, "ID")
+bird_calls
+```
+```{r}
+bird_calls <- bird_calls %>% 
+  select(ID, begin_time_s, end_time_s, low_freq_hz, high_freq_hz, sound_category) 
+
+bird_calls
+  
+```
+```{r}
+bird_call_clean <- bird_calls %>% 
+  gather(low_freq_hz, high_freq_hz, key = "type", value = "frequency") %>% 
+  mutate(duration = end_time_s - begin_time_s) %>% 
+  arrange(ID)
+
+bird_call_clean
+```
+
+## Questions
+1. Which category has the greatest frequency variation?
+```{r}
+bird_call_clean %>% 
+  group_by(type) %>% 
+  ggplot(aes(x = sound_category, y = frequency, fill = type)) +
+  geom_boxplot()
+  
+```
+
+
+2. Is there a relationship between freq range and recording duration?
+```{r}
+bird_call_clean %>% 
+  group_by(sound_category) %>% 
+  ggplot(aes(x = duration, y = frequency)) +
+  geom_point(aes(color = sound_category)) +
+  facet_wrap(~sound_category)
+```
+```{r}
+bird_call_clean %>% 
+  group_by(sound_category) %>% 
+  ggplot(aes(x = duration, y = frequency)) +
+  geom_point(aes(color = type)) +
+  facet_wrap(~sound_category)
+```
+
+3. Trend across time
+```{r}
+bird_call_clean %>% 
+  ggplot(aes(x = begin_time_s, y = frequency)) +
+  geom_point(aes(color = type)) +
+  facet_wrap(~sound_category)
+```
+
