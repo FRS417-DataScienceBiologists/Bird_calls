@@ -1,18 +1,19 @@
----
-title: "final picks"
-author: "Stephanie Tsai and Sara TC"
-date: "March 8, 2019"
-output: 
-  html_document: 
-    keep_md: yes
----
+Bird_calls_of_Chernobyl
+========================================================
+author: 
+date: 
+autosize: true
 
+First Slide
+========================================================
 ## Packages Used
 ```{r}
 library(tidyverse)
 library(skimr)
 library(paletteer)
 ```
+
+========================================================
 ## Loading Data
 Database we are using is from "Kendrick, P.; Barçante, L.; Beresford, N.A.; Gashchak, S.; Wood, M.D. (2018). Bird Vocalisation Activity (BiVA) database: annotated soundscapes from the Chernobyl Exclusion Zone. NERC Environmental Information Data Centre. https://doi.org/10.5285/be5639e9-75e9-4aa3-afdd-65ba80352591"
 Contains data supplied by Natural Environment Research Council from Open Government License
@@ -22,12 +23,15 @@ Clarification: "Buzz" represents insects
 ```{r}
 call_data <- read_csv("C:/Users/Stephanie T/Desktop/FRS_417/stephanie_scripts_tests/complete_BirdCall_data_table.csv")
 ```
+
+========================================================
 ## Clean up data
 Use of skimmr::skim to look if data may contain NAs or nonsense values
 ```{r}
 skim(call_data)
 ```
-Renaming 
+========================================================
+## Renaming 
 ```{r}
 call_data <- call_data %>% 
   rename(info = 'Additional information',
@@ -37,23 +41,23 @@ call_data <- call_data %>%
          high_freq_hz = 'High Freq (Hz)',
          low_freq_hz = 'Low Freq (Hz)' ) 
 
-
+head(call_data)
 ```
 
-Renaming the stored variable
+## Renaming the stored variable
 ```{r}
 bird_calls <- call_data
 ```
-
-Refining the columns we want to analyze
+========================================================
+## Refining the columns we want to analyze
 ```{r}
 bird_calls <- bird_calls %>% 
   select(begin_time_s, end_time_s, low_freq_hz, high_freq_hz, sound_category) 
 
-bird_calls
+head(bird_calls)
   
 ```
-
+========================================================
 ## Clean Data
 
 All Animals included
@@ -61,17 +65,17 @@ All Animals included
 bird_call_clean <- bird_calls %>% 
   gather(low_freq_hz, high_freq_hz, key = "type", value = "frequency") %>% 
   mutate(duration = end_time_s - begin_time_s) %>% 
-  mutate(animal_type = recode(sound_category, Buzz = "Insect")) #renames the default variable so the data is more clear
+  mutate(animal_type = recode(sound_category, Buzz = "Insect")) 
   
 
-bird_call_clean
+head(bird_call_clean)
 ```
+========================================================
 
-
-## Questions
-1. What is the frequency range of each animal type?
+### Questions
+## 1. What is the frequency range of each animal type?
 ```{r}
-bird_call_clean %>% 
+plot1 <- bird_call_clean %>% 
   ggplot(aes(x=animal_type, y=frequency, fill=animal_type))+
   geom_boxplot(position="dodge")+
   
@@ -82,10 +86,17 @@ bird_call_clean %>%
   theme_light() +
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+========================================================
+```{r}
+plot1
+```
+
 
 From this graph, we saw that Buzz (aka insects) had the lowest median of frequencies and the greatest outliers. Birds have a median frequency of less than 5000 Hz and most of the frequencies are around that point. We can not draw much of a conclusion from other animals because it is a mixture of all different unknown sounds.
 
-2. To further clarify what we are seeing, we divided these sounds by high and low frequency.
+========================================================
+
+## 2. To further clarify what we are seeing, we divided these sounds by high and low frequency.
 ```{r}
 bird_call_clean %>% 
   group_by(type) %>% 
@@ -100,8 +111,9 @@ bird_call_clean %>%
   
 ```
 This graph is unexpected because we expected more of the buzz sounds to be on the low frequency end, but the data says that most are categorized on the high frequency end. It is hard to tell why this is the case, so we wil count how many data points make up the low frequency for insects.
+========================================================
 
-3. Counting data points for low freqeuncy insects
+## 3. Counting data points for low freqeuncy insects
 ```{r}
 bird_call_clean %>% 
   filter(sound_category == "Buzz" & type == "low_freq_hz") %>% 
@@ -115,7 +127,8 @@ bird_call_clean %>%
 ```
 This tells us there are a lot of points on 0 Hz, so our initial boxplot is misleading because it looks like there are not many points on low frequencies. 
 
-So is this the problem we see in all other animal types?
+========================================================
+## So is this the problem we see in all other animal types?
 ```{r}
 bird_call_clean %>% 
   ggplot(aes(x=frequency))+
@@ -126,9 +139,9 @@ bird_call_clean %>%
   theme_linedraw()+
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+========================================================
 
-
-4. So what do the labels low frequency and high frequency mean?
+## 4. So what do the labels low frequency and high frequency mean?
 ```{r}
 bird_call_clean %>% 
   ggplot(aes(x=type, y=frequency, fill=type))+
@@ -144,7 +157,8 @@ bird_call_clean %>%
 ```
 Now we see there is significant overlap between what is considered low and high frequency. Because of this issue, the labels are possibly arbitrary. The high frequency range dips into the low frequency and vice versa. We cannot rely on their labels, so we will only use the raw frequency observations.
 
-5. Total number of organisms recorded in Chernobyl per animal type
+========================================================
+## 5. Total number of organisms recorded in Chernobyl per animal type
 ```{r}
 bird_call_clean %>% 
   ggplot(aes(x = animal_type))+
@@ -159,9 +173,9 @@ bird_call_clean %>%
 ```
 This tells us how many individuals were recorded. There are many more birds than any other animal.
 
+========================================================
 
-
-6. Is there a relationship between frequency range, recording duration, and animal type?
+## 6. Is there a relationship between frequency range, recording duration, and animal type?
 ```{r}
 bird_call_clean %>% 
   group_by(sound_category) %>% 
@@ -180,6 +194,8 @@ bird_call_clean %>%
 ```
 
 We see that birds have a frequency range between a little above 0-17500 Hz and have a call duration between about 0-100 seconds. Insects have a slightly higher frequency range than birds, but they have shorter call durations. Other animals have the greatest frequency range and can be divided into a low frequency or high frequency sound. They also have greater call durations than birds or insects.
+
+
 
 
 

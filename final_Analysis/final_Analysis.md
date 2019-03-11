@@ -144,27 +144,28 @@ All Animals included
 ```r
 bird_call_clean <- bird_calls %>% 
   gather(low_freq_hz, high_freq_hz, key = "type", value = "frequency") %>% 
-  mutate(duration = end_time_s - begin_time_s)
+  mutate(duration = end_time_s - begin_time_s) %>% 
+  mutate(animal_type = recode(sound_category, Buzz = "Insect")) #renames the default variable so the data is more clear
   
 
 bird_call_clean
 ```
 
 ```
-## # A tibble: 10,392 x 6
-##    begin_time_s end_time_s sound_category type        frequency duration
-##           <dbl>      <dbl> <chr>          <chr>           <dbl>    <dbl>
-##  1        0           1.71 Bird           low_freq_hz     2986.     1.71
-##  2        0.335       1.83 Other animal   low_freq_hz     5752.     1.49
-##  3        0.346       1.79 Buzz           low_freq_hz        0      1.44
-##  4        6.85        8.72 Other animal   low_freq_hz     4652      1.87
-##  5        7.52       14.9  Bird           low_freq_hz     2909.     7.42
-##  6       14.1        16.2  Other animal   low_freq_hz     4863.     2.10
-##  7       18.4        23.6  Bird           low_freq_hz     2597.     5.14
-##  8       20.1        21.9  Other animal   low_freq_hz     5958      1.84
-##  9       26.7        29.0  Other animal   low_freq_hz     3489      2.38
-## 10       33.6        36.2  Other animal   low_freq_hz     4969.     2.58
-## # ... with 10,382 more rows
+## # A tibble: 10,392 x 7
+##    begin_time_s end_time_s sound_category type  frequency duration
+##           <dbl>      <dbl> <chr>          <chr>     <dbl>    <dbl>
+##  1        0           1.71 Bird           low_~     2986.     1.71
+##  2        0.335       1.83 Other animal   low_~     5752.     1.49
+##  3        0.346       1.79 Buzz           low_~        0      1.44
+##  4        6.85        8.72 Other animal   low_~     4652      1.87
+##  5        7.52       14.9  Bird           low_~     2909.     7.42
+##  6       14.1        16.2  Other animal   low_~     4863.     2.10
+##  7       18.4        23.6  Bird           low_~     2597.     5.14
+##  8       20.1        21.9  Other animal   low_~     5958      1.84
+##  9       26.7        29.0  Other animal   low_~     3489      2.38
+## 10       33.6        36.2  Other animal   low_~     4969.     2.58
+## # ... with 10,382 more rows, and 1 more variable: animal_type <chr>
 ```
 
 
@@ -173,11 +174,15 @@ bird_call_clean
 
 ```r
 bird_call_clean %>% 
-  ggplot(aes(x=sound_category, y=frequency, fill=sound_category))+
+  ggplot(aes(x=animal_type, y=frequency, fill=animal_type))+
   geom_boxplot(position="dodge")+
-  theme(plot.title = element_text(size=rel(1.5), hjust=0.5))+
+  
   scale_fill_brewer(palette = "OrRd")+
-  labs(title = "Frequency")
+  labs(title = "Frequency",
+       x = "Animal Type",
+       y = "Frequency (Hz)") +
+  theme_light() +
+  theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
 
 ![](final_Analysis_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
@@ -189,7 +194,7 @@ From this graph, we saw that Buzz (aka insects) had the lowest median of frequen
 ```r
 bird_call_clean %>% 
   group_by(type) %>% 
-  ggplot(aes(x = sound_category, y = frequency, fill = type)) +
+  ggplot(aes(x = animal_type, y = frequency, fill = type)) +
   geom_boxplot() +
   labs(title = "Frequency by Animal",
        x = "Animal Type",
@@ -254,8 +259,8 @@ Now we see there is significant overlap between what is considered low and high 
 
 ```r
 bird_call_clean %>% 
-  ggplot(aes(x = sound_category))+
-  geom_bar(aes(fill = sound_category)) +
+  ggplot(aes(x = animal_type))+
+  geom_bar(aes(fill = animal_type)) +
   scale_fill_paletteer_d(ggsci, legacy_tron) +
   theme_classic() +
   labs(title = "Number of individuals recorded in Chernobyl",
@@ -275,7 +280,7 @@ This tells us how many individuals were recorded. There are many more birds than
 bird_call_clean %>% 
   group_by(sound_category) %>% 
   ggplot(aes(x = duration, y = frequency)) +
-  geom_point(alpha = 0.4, aes(color = sound_category)) +
+  geom_point(alpha = 0.4, aes(color = animal_type)) +
   scale_color_paletteer_d(ggsci, palette = category10_d3, direction = 1) +
   facet_wrap(~sound_category) +
   theme_light() +
