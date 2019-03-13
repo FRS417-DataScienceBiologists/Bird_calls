@@ -1,10 +1,13 @@
 Bird_calls_of_Chernobyl
 ========================================================
-author: 
+author: Sara T and Stephanie Tsai
 date: 
 autosize: true
 
-First Slide
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library("jpeg")
+```
 ========================================================
 ## Packages Used
 ```{r}
@@ -75,7 +78,7 @@ head(bird_call_clean)
 ### Questions
 ## 1. What is the frequency range of each animal type?
 ```{r}
-plot1 <- bird_call_clean %>% 
+bird_call_clean %>% 
   ggplot(aes(x=animal_type, y=frequency, fill=animal_type))+
   geom_boxplot(position="dodge")+
   
@@ -86,11 +89,24 @@ plot1 <- bird_call_clean %>%
   theme_light() +
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+
+
+
+
+
+
+
 ========================================================
-```{r}
-plot1
+```{r out.width = "100%", fig.align = "center"}
+   knitr::include_graphics("unnamed-chunk-10-1.png")
 ```
 
+
+
+
+
+
+========================================================
 
 From this graph, we saw that Buzz (aka insects) had the lowest median of frequencies and the greatest outliers. Birds have a median frequency of less than 5000 Hz and most of the frequencies are around that point. We can not draw much of a conclusion from other animals because it is a mixture of all different unknown sounds.
 
@@ -110,6 +126,15 @@ bird_call_clean %>%
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
   
 ```
+
+
+
+
+
+
+
+========================================================
+
 This graph is unexpected because we expected more of the buzz sounds to be on the low frequency end, but the data says that most are categorized on the high frequency end. It is hard to tell why this is the case, so we wil count how many data points make up the low frequency for insects.
 ========================================================
 
@@ -125,6 +150,16 @@ bird_call_clean %>%
   theme_bw() +
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+
+
+
+
+
+
+
+
+
+========================================================
 This tells us there are a lot of points on 0 Hz, so our initial boxplot is misleading because it looks like there are not many points on low frequencies. 
 
 ========================================================
@@ -139,6 +174,15 @@ bird_call_clean %>%
   theme_linedraw()+
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+
+
+
+
+
+
+
+
+
 ========================================================
 
 ## 4. So what do the labels low frequency and high frequency mean?
@@ -155,6 +199,14 @@ bird_call_clean %>%
   theme_light() +
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+
+
+
+
+
+
+========================================================
+
 Now we see there is significant overlap between what is considered low and high frequency. Because of this issue, the labels are possibly arbitrary. The high frequency range dips into the low frequency and vice versa. We cannot rely on their labels, so we will only use the raw frequency observations.
 
 ========================================================
@@ -171,6 +223,14 @@ bird_call_clean %>%
        fill = "Animal Type") +
   theme(plot.title = element_text(size=rel(1.5), hjust=0.5))
 ```
+
+
+
+
+
+
+
+
 This tells us how many individuals were recorded. There are many more birds than any other animal.
 
 ========================================================
@@ -193,13 +253,19 @@ bird_call_clean %>%
   
 ```
 
+
+
+
+
+
+
+========================================================
+
 We see that birds have a frequency range between a little above 0-17500 Hz and have a call duration between about 0-100 seconds. Insects have a slightly higher frequency range than birds, but they have shorter call durations. Other animals have the greatest frequency range and can be divided into a low frequency or high frequency sound. They also have greater call durations than birds or insects.
 
 
 
-
-
-
+========================================================
 
 
 
