@@ -19,6 +19,7 @@ To run our analyses, we used three packages:
 library(tidyverse)
 library(skimr)
 library(paletteer)
+library(RColorBrewer)
 ```
 
 ## Loading Data
@@ -123,6 +124,7 @@ bird_call_clean %>%
 ## So is this the problem we see in all other animal types?
 ```{r echo=FALSE, warning=FALSE}
 bird_call_clean %>% 
+  #filter(sound_category != "Buzz") %>% 
   ggplot(aes(x=frequency))+
   geom_histogram(fill="lightyellow", color="black")+
   labs(title="Spread of Frequencies",
